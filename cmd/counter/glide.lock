@@ -1,0 +1,17 @@
+hash: b0a8d0d792f244346d5843203e02d3f5dff4d5f7a1f3acc356b924ee8b23ea16
+updated: 2017-05-09T15:52:01.167674854+02:00
+imports:
+- name: github.com/mreiferson/go-snappystream
+  version: 028eae7ab5c4c9e2d1cb4c4ca1e53259bbe7e504
+  subpackages:
+  - snappy-go
+- name: github.com/nsqio/go-nsq
+  version: d71fb89c9e0263aaed89645b0b168e11ccf597b1
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+testImports: []

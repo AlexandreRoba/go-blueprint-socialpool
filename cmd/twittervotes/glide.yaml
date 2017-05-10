@@ -1,0 +1,9 @@
+package: github.com/alexandreroba/go-blueprint-socialpool/twittervotes
+import:
+- package: github.com/garyburd/go-oauth
+- package: github.com/joeshaw/envdecode
+- package: gopkg.in/mgo.v2
+- package: github.com/nsqio/go-nsq
+  version: ^1.0.6
+- package: github.com/mreiferson/go-snappystream
+  version: ^0.2.3

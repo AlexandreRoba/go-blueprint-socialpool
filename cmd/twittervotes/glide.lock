@@ -1,0 +1,23 @@
+hash: 9be2d7a6955de2941c6d42b86d90a7b8f4592bba9d760c61c03c15937e2f14ea
+updated: 2017-05-09T11:32:38.990366282+02:00
+imports:
+- name: github.com/garyburd/go-oauth
+  version: 4f191fd0442e75c0c73bd00e4f5f27d4c08312ee
+  subpackages:
+  - oauth
+- name: github.com/joeshaw/envdecode
+  version: 6326cbed175e32cd5183be1cc1027e0823c91edb
+- name: github.com/mreiferson/go-snappystream
+  version: 028eae7ab5c4c9e2d1cb4c4ca1e53259bbe7e504
+  subpackages:
+  - snappy-go
+- name: github.com/nsqio/go-nsq
+  version: d71fb89c9e0263aaed89645b0b168e11ccf597b1
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+testImports: []
