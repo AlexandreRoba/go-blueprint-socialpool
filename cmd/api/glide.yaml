@@ -1,2 +1,3 @@
 package: github.com/alexandreroba/go-blueprint-socialpool/cmd/api
-import: []
+import:
+- package: gopkg.in/mgo.v2
